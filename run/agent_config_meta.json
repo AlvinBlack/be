@@ -1,0 +1,301 @@
+{
+  "mongoose": {
+    "client": {
+      "url": "/root/work/yc-project/be/config/config.default.js",
+      "options": "/root/work/yc-project/be/config/config.default.js"
+    },
+    "url": "/root/work/yc-project/be/node_modules/_egg-mongoose@3.2.0@egg-mongoose/config/config.default.js",
+    "options": "/root/work/yc-project/be/node_modules/_egg-mongoose@3.2.0@egg-mongoose/config/config.default.js",
+    "plugins": "/root/work/yc-project/be/node_modules/_egg-mongoose@3.2.0@egg-mongoose/config/config.default.js",
+    "loadModel": "/root/work/yc-project/be/node_modules/_egg-mongoose@3.2.0@egg-mongoose/config/config.default.js",
+    "app": "/root/work/yc-project/be/node_modules/_egg-mongoose@3.2.0@egg-mongoose/config/config.default.js",
+    "agent": "/root/work/yc-project/be/node_modules/_egg-mongoose@3.2.0@egg-mongoose/config/config.default.js"
+  },
+  "keys": "/root/work/yc-project/be/config/config.default.js",
+  "middleware": "/root/work/yc-project/be/config/config.default.js",
+  "session": {
+    "maxAge": "/root/work/yc-project/be/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/root/work/yc-project/be/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/root/work/yc-project/be/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/root/work/yc-project/be/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "protocolWhiteList": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "defaultMiddleware": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "useSession": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "ignoreJSON": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "cookieName": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "sessionName": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "headerName": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "bodyName": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "queryName": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.local.js",
+      "maxAge": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "includeSubdomains": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "policy": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "checkAddress": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/root/work/yc-project/be/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/root/work/yc-project/be/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/root/work/yc-project/be/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/root/work/yc-project/be/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/root/work/yc-project/be/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/root/work/yc-project/be/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "dirs": "/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "queryField": "/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieField": "/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieDomain": "/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/root/work/yc-project/be/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/root/work/yc-project/be/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js",
+      "development": "/root/work/yc-project/be/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/root/work/yc-project/be/node_modules/_egg-schedule@3.6.3@egg-schedule/config/config.default.js",
+      "file": "/root/work/yc-project/be/node_modules/_egg-schedule@3.6.3@egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/root/work/yc-project/be/node_modules/_egg-schedule@3.6.3@egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "autoFields": "/root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "defaultCharset": "/root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "fieldSize": "/root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "fields": "/root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "fileSize": "/root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "files": "/root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "fileExtensions": "/root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "whitelist": "/root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "tmpdir": "/root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "ignoreDirs": "/root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "fastReady": "/root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "reloadOnDebug": "/root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "overrideDefault": "/root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFiles": "/root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxDays": "/root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/root/work/yc-project/be/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dir": "/root/work/yc-project/be/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dynamic": "/root/work/yc-project/be/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "preload": "/root/work/yc-project/be/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "buffer": "/root/work/yc-project/be/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "maxFiles": "/root/work/yc-project/be/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/root/work/yc-project/be/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "cache": "/root/work/yc-project/be/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
+    "defaultExtension": "/root/work/yc-project/be/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "defaultViewEngine": "/root/work/yc-project/be/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "mapping": "/root/work/yc-project/be/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
+  },
+  "env": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "name": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "proxy": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "maxProxyCount": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "protocolHeaders": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "ipHeaders": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "hostHeaders": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "pkg": {
+    "name": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "version": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "description": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "private": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "egg": {
+      "declarations": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "egg-scripts": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "autod-egg": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "egg": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "egg-bin": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "egg-ci": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "egg-mock": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "egg-mongoose": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "eslint": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "eslint-config-egg": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "stop": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "dev": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "debug": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "test": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "test-local": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "cov": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "lint": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "ci": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "autod": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "url": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "author": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "license": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+  },
+  "baseDir": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "HOME": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "rundir": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "notFound": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "sitefile": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "middlewares": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "httpClient": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "encoding": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "formLimit": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "jsonLimit": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "strict": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "depth": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "parameterLimit": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "encoding": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "env": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "level": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "consoleLevel": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "outputJSON": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "buffer": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "appLogName": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "coreLogName": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "agentLogName": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "errorLogName": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "request": {
+      "timeout": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "freeSocketTimeout": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "maxSockets": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "maxFreeSockets": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "freeSocketTimeout": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "maxSockets": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "maxFreeSockets": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "logging": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "workerStartTimeout": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "serverTimeout": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "port": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "hostname": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "responseTimeout": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+  },
+  "onClientError": "/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/config/config.default.js"
+}

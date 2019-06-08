@@ -1,0 +1,42 @@
+2019-06-08 10:43:19,869 INFO 3207 [Timer] /Users/benjamin/develop/shikelang/project/egg-example/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 64000134ms at 2019-06-09 04:30:00.003
+2019-06-08 10:43:19,870 INFO 3207 [Timer] /Users/benjamin/develop/shikelang/project/egg-example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 47800130ms at 2019-06-09 00:00:00.000
+2019-06-08 10:43:19,870 INFO 3207 [Timer] /Users/benjamin/develop/shikelang/project/egg-example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 47801130ms at 2019-06-09 00:00:01.000
+2019-06-08 10:43:19,805 INFO 3216 [egg-schedule]: register schedule /Users/benjamin/develop/shikelang/project/egg-example/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-08 10:43:19,805 INFO 3216 [egg-schedule]: register schedule /Users/benjamin/develop/shikelang/project/egg-example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-06-08 10:43:19,805 INFO 3216 [egg-schedule]: register schedule /Users/benjamin/develop/shikelang/project/egg-example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-08 12:13:05,656 INFO 28791 [Timer] /root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 58614347ms at 2019-06-09 04:30:00.002
+2019-06-08 12:13:05,656 INFO 28791 [Timer] /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 42414344ms at 2019-06-09 00:00:00.000
+2019-06-08 12:13:05,656 INFO 28791 [Timer] /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 42415344ms at 2019-06-09 00:00:01.000
+2019-06-08 12:13:05,585 INFO 28802 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-08 12:13:05,585 INFO 28802 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-06-08 12:13:05,585 INFO 28802 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-08 13:31:37,946 INFO 28947 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-08 13:31:37,946 INFO 28947 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-06-08 13:31:37,946 INFO 28947 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-08 13:41:31,353 INFO 29112 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-08 13:41:31,353 INFO 29112 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-06-08 13:41:31,353 INFO 29112 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-08 13:41:31,651 INFO 29101 [Timer] /root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 53308352ms at 2019-06-09 04:30:00.003
+2019-06-08 13:41:31,651 INFO 29101 [Timer] /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 37108349ms at 2019-06-09 00:00:00.000
+2019-06-08 13:41:31,652 INFO 29101 [Timer] /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 37109348ms at 2019-06-09 00:00:01.000
+2019-06-08 13:48:01,279 INFO 29358 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-08 13:48:01,279 INFO 29358 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-06-08 13:48:01,279 INFO 29358 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-08 13:48:01,573 INFO 29347 [Timer] /root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 52918430ms at 2019-06-09 04:30:00.003
+2019-06-08 13:48:01,573 INFO 29347 [Timer] /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 36718427ms at 2019-06-09 00:00:00.000
+2019-06-08 13:48:01,574 INFO 29347 [Timer] /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 36719427ms at 2019-06-09 00:00:01.001
+2019-06-08 14:05:30,967 INFO 29526 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-08 14:05:30,967 INFO 29526 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-06-08 14:05:30,967 INFO 29526 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-08 14:10:25,093 INFO 29538 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-08 14:10:25,093 INFO 29538 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-06-08 14:10:25,093 INFO 29538 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-08 14:11:28,240 INFO 29550 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-08 14:11:28,240 INFO 29550 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-06-08 14:11:28,240 INFO 29550 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-08 14:11:45,438 INFO 29562 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-08 14:11:45,438 INFO 29562 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-06-08 14:11:45,438 INFO 29562 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-08 14:11:46,700 INFO 29574 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-08 14:11:46,700 INFO 29574 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-06-08 14:11:46,700 INFO 29574 [egg-schedule]: register schedule /root/work/yc-project/be/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js

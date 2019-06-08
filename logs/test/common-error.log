@@ -1,0 +1,15 @@
+2019-06-08 13:31:38,227 ERROR 28947 [egg-mongoose] mongodb://localhost:27017/db disconnected
+2019-06-08 13:31:38,228 ERROR 28947 nodejs.MongoNetworkError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+name: "MongoNetworkError"
+errorLabels: ["TransientTransactionError"]
+pid: 28947
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 13:31:38,230 ERROR 28947 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+name: "MongoNetworkError"
+errorLabels: ["TransientTransactionError"]
+pid: 28947
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
