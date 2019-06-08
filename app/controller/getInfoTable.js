@@ -3,31 +3,59 @@ const Controller = require('egg').Controller;
 const convertKeyToTime = require('../utils').convertKeyToTime
 class GetInfoTableController extends Controller {
   async index() {
-    const partner = this.ctx.request.body.name;
-    const timeArr = this.ctx.request.body.timeArr;
-    for(let i = 0, len = timeArr.length; i < len; i++){
-      let time = timeArr[i];
-      const result = await this.ctx.model.Info.find({ partner, month: time[0], day: time[1], time: convertTimeToKey(time[2]) });
-      if(result.length < 1){
-        await this.ctx.model.Info.create({ partner, player: '', month: time[0], day: time[1], time: convertTimeToKey(time[2]) });
+    const time = this.ctx.request.body.time;
+    const result = await this.ctx.model.Info.find({ month: time[0], day: time[1] });
+    
+    let partnerArr = ['合伙人1', '合伙人2', '合伙人3', '合伙人4', '合伙人5'];
+    // result.forEach(v => {
+    //   if(!partnerArr.includes(v.partner)){
+    //     partnerArr.push(v.partner)
+    //   }
+    // })
+
+    let columns = [{
+      dataIndex: 'time',
+      title: '时间'
+    }]
+    partnerArr.forEach(v => {
+      columns.push({
+        dataIndex: v,
+        title: v
+      })
+    })
+
+    let dataSource = [];
+    if(result && result.length){
+      result.sort((a, b) => {
+        return a.time - b.time
+      })
+      for (let i = 0; i < 32; i++) {
+        dataSource.push({
+          time: convertKeyToTime(i)
+        })
       }
-    }
-    this.ctx.body = {
-      columns: [
-          {
-            dataIndex: 'time',
-            title: '时间'
-          }
-      ],
-      dataSource: [
-        {
-          time: 'time',
-          "合伙人": {
-            isFree: true,
-            entrepreneur: '创业者'
-          }
+      result.forEach(v => {
+        dataSource[v.time][v.partner] = {
+          isFree: !v.player,
+          entrepreneur: v.player,
+          name: v.partner
         }
-      ]
+      })
+
+      dataSource.forEach(v => {
+        partnerArr.forEach(sv => {
+          v[sv] = v[sv] ? v[sv] : {
+            isFree: false,
+            entrepreneur: '',
+            name: sv
+          }
+        })
+      })
+    }
+    
+    this.ctx.body = {
+      columns,
+      dataSource
     };
   }
 }

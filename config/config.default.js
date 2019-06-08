@@ -19,11 +19,16 @@ module.exports = appInfo => {
     },
   };
   
+  exports.security = {
+    csrf: {
+      enable: false,
+    },
+  };
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1559961454849_1939';
 
   // add your middleware config here
-  config.middleware = [];
+  // config.middleware = [];
 
   // add your user config here
   const userConfig = {

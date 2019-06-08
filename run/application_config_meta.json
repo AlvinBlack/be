@@ -11,20 +11,9 @@
     "app": "/root/work/yc-project/be/node_modules/_egg-mongoose@3.2.0@egg-mongoose/config/config.default.js",
     "agent": "/root/work/yc-project/be/node_modules/_egg-mongoose@3.2.0@egg-mongoose/config/config.default.js"
   },
-  "keys": "/root/work/yc-project/be/config/config.default.js",
-  "middleware": "/root/work/yc-project/be/config/config.default.js",
-  "session": {
-    "maxAge": "/root/work/yc-project/be/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
-    "key": "/root/work/yc-project/be/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
-    "httpOnly": "/root/work/yc-project/be/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
-    "encrypt": "/root/work/yc-project/be/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
-  },
   "security": {
-    "domainWhiteList": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
-    "protocolWhiteList": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
-    "defaultMiddleware": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
     "csrf": {
-      "enable": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "enable": "/root/work/yc-project/be/config/config.default.js",
       "useSession": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
       "ignoreJSON": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
       "cookieName": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
@@ -33,6 +22,9 @@
       "bodyName": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
       "queryName": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
     },
+    "domainWhiteList": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "protocolWhiteList": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "defaultMiddleware": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
     "xframe": {
       "enable": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
       "value": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
@@ -70,6 +62,13 @@
       "ipBlackList": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
       "checkAddress": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
     }
+  },
+  "keys": "/root/work/yc-project/be/config/config.default.js",
+  "session": {
+    "maxAge": "/root/work/yc-project/be/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/root/work/yc-project/be/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/root/work/yc-project/be/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/root/work/yc-project/be/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
   },
   "helper": {
     "shtml": "/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"

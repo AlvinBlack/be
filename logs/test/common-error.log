@@ -13,3 +13,1748 @@ errorLabels: ["TransientTransactionError"]
 pid: 28947
 hostname: iZ8vbia7opzm9ljg6svl8mZ
 
+2019-06-08 15:48:24,632 ERROR 30246 [egg-mongoose] mongodb://localhost:27017/db disconnected
+2019-06-08 15:48:47,269 ERROR 30260 [egg-mongoose] mongodb://localhost:27017/db disconnected
+2019-06-08 15:48:47,270 ERROR 30260 nodejs.MongoNetworkError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+name: "MongoNetworkError"
+errorLabels: ["TransientTransactionError"]
+pid: 30260
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 15:48:47,271 ERROR 30260 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+name: "MongoNetworkError"
+errorLabels: ["TransientTransactionError"]
+pid: 30260
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 15:51:36,267 ERROR 30428 [-/127.0.0.1/-/5ms POST /addPartner] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/app/extend/context.js:97:13)
+    at csrf (/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/root/work/yc-project/be/node_modules/_koa-session@5.12.0@koa-session/index.js:41:13)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/root/work/yc-project/be/node_modules/_koa-override@3.0.0@koa-override/index.js:38:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at bodyParser (/root/work/yc-project/be/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:11)
+
+pid: 30428
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 15:51:37,536 ERROR 30428 [-/127.0.0.1/-/0ms POST /addPartner] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/root/work/yc-project/be/node_modules/_egg@2.22.2@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/app/extend/context.js:97:13)
+    at csrf (/root/work/yc-project/be/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/root/work/yc-project/be/node_modules/_koa-session@5.12.0@koa-session/index.js:41:13)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/root/work/yc-project/be/node_modules/_koa-override@3.0.0@koa-override/index.js:38:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at bodyParser (/root/work/yc-project/be/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:11)
+
+pid: 30428
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 15:53:16,431 ERROR 30488 [-/127.0.0.1/-/7ms POST /addPartner] nodejs.TypeError: Cannot read property 'length' of undefined
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:8:34)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30488
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 15:53:17,908 ERROR 30488 [-/127.0.0.1/-/1ms POST /addPartner] nodejs.TypeError: Cannot read property 'length' of undefined
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:8:34)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30488
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 15:53:31,151 ERROR 30557 [-/127.0.0.1/-/5ms POST /addPartner] nodejs.TypeError: Cannot read property 'length' of undefined
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:8:34)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30557
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 15:53:32,581 ERROR 30557 [-/127.0.0.1/-/1ms POST /addPartner] nodejs.TypeError: Cannot read property 'length' of undefined
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:8:34)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30557
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 15:54:50,237 ERROR 30581 [-/127.0.0.1/-/5ms POST /addPartner] nodejs.TypeError: Cannot read property 'length' of undefined
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:8:34)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30581
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 15:55:11,817 ERROR 30581 [-/127.0.0.1/-/10ms POST /addPartner] nodejs.TypeError: Cannot read property 'split' of undefined
+    at convertTimeToKey (/root/work/yc-project/be/app/utils.js:3:20)
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:10:100)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+
+pid: 30581
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 15:56:04,981 ERROR 30596 [-/127.0.0.1/-/14ms POST /addPartner] nodejs.TypeError: Cannot read property 'split' of undefined
+    at convertTimeToKey (/root/work/yc-project/be/app/utils.js:3:20)
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:11:100)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+
+pid: 30596
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 15:56:23,879 ERROR 30596 [-/127.0.0.1/-/1ms POST /addPartner] nodejs.TypeError: Cannot read property 'split' of undefined
+    at convertTimeToKey (/root/work/yc-project/be/app/utils.js:3:20)
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:11:100)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+
+pid: 30596
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 15:58:13,400 ERROR 30596 [-/127.0.0.1/-/1ms POST /addPartner] nodejs.TypeError: Cannot read property 'length' of undefined
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:8:34)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30596
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 15:58:27,176 ERROR 30596 [-/127.0.0.1/-/0ms POST /addPartner] nodejs.TypeError: Cannot read property 'length' of undefined
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:8:34)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30596
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 15:58:57,178 ERROR 30596 [-/127.0.0.1/-/1ms POST /addPartner] nodejs.TypeError: Cannot read property 'length' of undefined
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:8:34)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30596
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 15:59:43,025 ERROR 30596 [-/127.0.0.1/-/1ms POST /addPartner] nodejs.TypeError: Cannot read property 'length' of undefined
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:8:34)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30596
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 15:59:50,286 ERROR 30596 [-/127.0.0.1/-/0ms POST /addPartner] nodejs.TypeError: Cannot read property 'length' of undefined
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:8:34)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30596
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:00:19,966 ERROR 30609 [-/127.0.0.1/-/16ms POST /addPartner] nodejs.TypeError: Cannot read property 'length' of undefined
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:9:34)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30609
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:00:51,507 ERROR 30609 [-/127.0.0.1/-/2ms POST /addPartner] nodejs.TypeError: Cannot read property 'length' of undefined
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:9:34)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30609
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:01:28,743 ERROR 30609 [-/127.0.0.1/-/1ms POST /addPartner] nodejs.TypeError: Cannot read property 'length' of undefined
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:9:34)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30609
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:01:40,944 ERROR 30609 [-/127.0.0.1/-/1ms POST /addPartner] nodejs.TypeError: Cannot read property 'length' of undefined
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:9:34)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30609
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:15:18,063 ERROR 30625 [-/127.0.0.1/-/14ms POST /getInfoTable] nodejs.TypeError: Cannot read property '0' of undefined
+    at GetInfoTableController.index (/root/work/yc-project/be/app/controller/getInfoTable.js:7:64)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30625
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:15:42,471 ERROR 30625 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.TypeError: Cannot read property '0' of undefined
+    at GetInfoTableController.index (/root/work/yc-project/be/app/controller/getInfoTable.js:7:64)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30625
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:15:58,216 ERROR 30625 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.TypeError: Cannot read property '0' of undefined
+    at GetInfoTableController.index (/root/work/yc-project/be/app/controller/getInfoTable.js:7:64)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30625
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:18:00,005 ERROR 30625 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.TypeError: Cannot read property '0' of undefined
+    at GetInfoTableController.index (/root/work/yc-project/be/app/controller/getInfoTable.js:7:64)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30625
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:19:15,247 ERROR 30625 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.TypeError: Cannot read property '0' of undefined
+    at GetInfoTableController.index (/root/work/yc-project/be/app/controller/getInfoTable.js:7:64)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30625
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:19:51,802 ERROR 30625 [-/127.0.0.1/-/0ms POST /getInfoTable] nodejs.TypeError: Cannot read property '0' of undefined
+    at GetInfoTableController.index (/root/work/yc-project/be/app/controller/getInfoTable.js:7:64)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30625
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:20:23,560 ERROR 30625 [-/127.0.0.1/-/0ms POST /getInfoTable] nodejs.TypeError: Cannot read property '0' of undefined
+    at GetInfoTableController.index (/root/work/yc-project/be/app/controller/getInfoTable.js:7:64)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30625
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:23:08,442 ERROR 30692 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.TypeError: Cannot read property '0' of undefined
+    at GetInfoTableController.index (/root/work/yc-project/be/app/controller/getInfoTable.js:7:64)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30692
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:23:38,113 ERROR 30692 [-/127.0.0.1/-/0ms POST /getInfoTable] nodejs.TypeError: Cannot read property '0' of undefined
+    at GetInfoTableController.index (/root/work/yc-project/be/app/controller/getInfoTable.js:7:64)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30692
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:24:19,340 ERROR 30692 [-/127.0.0.1/-/0ms POST /getInfoTable] nodejs.TypeError: Cannot read property '0' of undefined
+    at GetInfoTableController.index (/root/work/yc-project/be/app/controller/getInfoTable.js:7:64)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30692
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:24:53,740 ERROR 30692 [-/127.0.0.1/-/0ms POST /getInfoTable] nodejs.TypeError: Cannot read property '0' of undefined
+    at GetInfoTableController.index (/root/work/yc-project/be/app/controller/getInfoTable.js:7:64)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30692
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:25:12,598 ERROR 30692 [-/127.0.0.1/-/0ms POST /getInfoTable] nodejs.TypeError: Cannot read property '0' of undefined
+    at GetInfoTableController.index (/root/work/yc-project/be/app/controller/getInfoTable.js:7:64)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30692
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:26:16,193 ERROR 30947 [-/127.0.0.1/-/12ms POST /getInfoTable] nodejs.TypeError: Cannot read property '0' of undefined
+    at GetInfoTableController.index (/root/work/yc-project/be/app/controller/getInfoTable.js:7:64)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 30947
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:47:58,206 ERROR 31382 [-/127.0.0.1/-/3ms POST /addPartner] nodejs.TypeError: time.split is not a function
+    at convertTimeToKey (/root/work/yc-project/be/app/utils.js:3:20)
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:12:102)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+
+pid: 31382
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 16:48:23,782 ERROR 31382 [-/127.0.0.1/-/2ms POST /addPartner] nodejs.TypeError: time.split is not a function
+    at convertTimeToKey (/root/work/yc-project/be/app/utils.js:3:20)
+    at AddPartnerController.index (/root/work/yc-project/be/app/controller/addPartner.js:12:102)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+
+pid: 31382
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:05:03,139 ERROR 31642 [-/127.0.0.1/-/2ms POST /makeMeeting] nodejs.TypeError: Cannot read property 'player' of undefined
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:7:29)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 31642
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:10:12,059 ERROR 31658 [-/127.0.0.1/-/2ms POST /makeMeeting] nodejs.TypeError: Cannot read property 'player' of undefined
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:7:29)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 31658
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:10:51,802 ERROR 31708 [-/127.0.0.1/-/5ms POST /makeMeeting] nodejs.TypeError: Cannot read property 'player' of undefined
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:7:29)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 31708
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:11:56,114 ERROR 31773 [-/127.0.0.1/-/2ms POST /makeMeeting] nodejs.TypeError: Cannot read property 'player' of undefined
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:7:29)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/work/yc-project/be/node_modules/_egg-core@4.17.2@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /root/work/yc-project/be/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/root/work/yc-project/be/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /root/work/yc-project/be/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/root/work/yc-project/be/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/root/work/yc-project/be/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 31773
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:13:22,494 ERROR 31797 [-/127.0.0.1/-/16ms POST /makeMeeting] nodejs.ReferenceError: insertList is not defined
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:13:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 31797
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:14:10,750 ERROR 31809 [-/127.0.0.1/-/4ms POST /makeMeeting] nodejs.TypeError: Cannot read property 'every' of undefined
+    at judgeConflict (/root/work/yc-project/be/app/controller/makeMeeting.js:61:23)
+    at judge (/root/work/yc-project/be/app/controller/makeMeeting.js:42:21)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:12:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 31809
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:15:15,144 ERROR 31836 [-/127.0.0.1/-/4ms POST /makeMeeting] nodejs.TypeError: Cannot read property 'every' of undefined
+    at judgeConflict (/root/work/yc-project/be/app/controller/makeMeeting.js:63:23)
+    at judge (/root/work/yc-project/be/app/controller/makeMeeting.js:42:21)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:12:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 31836
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:16:25,564 ERROR 31928 [-/127.0.0.1/-/17ms POST /makeMeeting] nodejs.TypeError: Cannot read property 'every' of undefined
+    at judgeConflict (/root/work/yc-project/be/app/controller/makeMeeting.js:64:23)
+    at judge (/root/work/yc-project/be/app/controller/makeMeeting.js:43:21)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:13:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 31928
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:17:19,733 ERROR 31943 [-/127.0.0.1/-/14ms POST /makeMeeting] nodejs.TypeError: Cannot read property 'every' of undefined
+    at judgeConflict (/root/work/yc-project/be/app/controller/makeMeeting.js:64:23)
+    at judge (/root/work/yc-project/be/app/controller/makeMeeting.js:43:21)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:13:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 31943
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:17:32,879 ERROR 31943 [-/127.0.0.1/-/4ms POST /makeMeeting] nodejs.TypeError: [object Object] is not iterable
+    at new Set (<anonymous>)
+    at eleContinue (/root/work/yc-project/be/app/controller/makeMeeting.js:92:23)
+    at partnerList.some (/root/work/yc-project/be/app/controller/makeMeeting.js:73:17)
+    at Array.some (<anonymous>)
+    at judgeContinue (/root/work/yc-project/be/app/controller/makeMeeting.js:72:24)
+    at judge (/root/work/yc-project/be/app/controller/makeMeeting.js:46:21)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:13:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 31943
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:18:47,639 ERROR 31979 [-/127.0.0.1/-/7ms POST /makeMeeting] nodejs.TypeError: [object Object] is not iterable
+    at new Set (<anonymous>)
+    at eleContinue (/root/work/yc-project/be/app/controller/makeMeeting.js:92:23)
+    at partnerList.some (/root/work/yc-project/be/app/controller/makeMeeting.js:73:17)
+    at Array.some (<anonymous>)
+    at judgeContinue (/root/work/yc-project/be/app/controller/makeMeeting.js:70:24)
+    at judge (/root/work/yc-project/be/app/controller/makeMeeting.js:46:21)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:13:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 31979
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:19:47,350 ERROR 32032 [-/127.0.0.1/-/28ms POST /makeMeeting] nodejs.TypeError: [object Object] is not iterable
+    at new Set (<anonymous>)
+    at eleContinue (/root/work/yc-project/be/app/controller/makeMeeting.js:92:23)
+    at partnerList.some (/root/work/yc-project/be/app/controller/makeMeeting.js:71:17)
+    at Array.some (<anonymous>)
+    at judgeContinue (/root/work/yc-project/be/app/controller/makeMeeting.js:70:24)
+    at judge (/root/work/yc-project/be/app/controller/makeMeeting.js:46:21)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:13:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 32032
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:29:59,650 ERROR 32096 [-/127.0.0.1/-/27ms POST /makeMeeting] nodejs.ReferenceError: _partnerList is not defined
+    at list.forEach.item (/root/work/yc-project/be/app/controller/makeMeeting.js:85:18)
+    at Array.forEach (<anonymous>)
+    at getPartnerList (/root/work/yc-project/be/app/controller/makeMeeting.js:78:10)
+    at judgeContinue (/root/work/yc-project/be/app/controller/makeMeeting.js:70:25)
+    at judge (/root/work/yc-project/be/app/controller/makeMeeting.js:46:21)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:13:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 32096
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:30:27,407 ERROR 32108 [-/127.0.0.1/-/28ms POST /makeMeeting] nodejs.ReferenceError: partner is not defined
+    at list.forEach.item (/root/work/yc-project/be/app/controller/makeMeeting.js:80:21)
+    at Array.forEach (<anonymous>)
+    at getPartnerList (/root/work/yc-project/be/app/controller/makeMeeting.js:78:10)
+    at judgeContinue (/root/work/yc-project/be/app/controller/makeMeeting.js:70:25)
+    at judge (/root/work/yc-project/be/app/controller/makeMeeting.js:46:21)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:13:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 32108
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:31:08,078 ERROR 32132 [-/127.0.0.1/-/26ms POST /makeMeeting] nodejs.ReferenceError: partner is not defined
+    at list.forEach.item (/root/work/yc-project/be/app/controller/makeMeeting.js:83:17)
+    at Array.forEach (<anonymous>)
+    at getPartnerList (/root/work/yc-project/be/app/controller/makeMeeting.js:78:10)
+    at judgeContinue (/root/work/yc-project/be/app/controller/makeMeeting.js:70:25)
+    at judge (/root/work/yc-project/be/app/controller/makeMeeting.js:46:21)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:13:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 32132
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:31:35,070 ERROR 32156 [-/127.0.0.1/-/5ms POST /makeMeeting] nodejs.TypeError: partnerList.some is not a function
+    at judgeContinue (/root/work/yc-project/be/app/controller/makeMeeting.js:71:24)
+    at judge (/root/work/yc-project/be/app/controller/makeMeeting.js:46:21)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:13:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 32156
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:41:03,176 ERROR 32748 [-/127.0.0.1/-/4ms POST /cancelMeeting] nodejs.TypeError: result.save is not a function
+    at CancelMeetingController.index (/root/work/yc-project/be/app/controller/cancelMeeting.js:17:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 32748
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:43:58,211 ERROR 353 [-/127.0.0.1/-/5ms POST /cancelMeeting] nodejs.TypeError: time.split is not a function
+    at convertTimeToKey (/root/work/yc-project/be/app/utils.js:3:20)
+    at result.map.item (/root/work/yc-project/be/app/controller/cancelMeeting.js:11:41)
+    at Array.map (<anonymous>)
+    at CancelMeetingController.index (/root/work/yc-project/be/app/controller/cancelMeeting.js:11:29)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 353
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:46:44,978 ERROR 440 [-/127.0.0.1/-/26ms POST /cancelMeeting] nodejs.TypeError: time.split is not a function
+    at convertTimeToKey (/root/work/yc-project/be/app/utils.js:3:20)
+    at result.forEach.item (/root/work/yc-project/be/app/controller/cancelMeeting.js:14:25)
+    at Array.forEach (<anonymous>)
+    at CancelMeetingController.index (/root/work/yc-project/be/app/controller/cancelMeeting.js:13:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 440
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:47:17,745 ERROR 440 [-/127.0.0.1/-/3ms POST /makeMeeting] nodejs.TypeError: time.split is not a function
+    at convertTimeToKey (/root/work/yc-project/be/app/utils.js:3:20)
+    at list.forEach.item (/root/work/yc-project/be/app/controller/makeMeeting.js:90:36)
+    at Array.forEach (<anonymous>)
+    at getPartnerList (/root/work/yc-project/be/app/controller/makeMeeting.js:85:10)
+    at judgeContinue (/root/work/yc-project/be/app/controller/makeMeeting.js:71:25)
+    at judge (/root/work/yc-project/be/app/controller/makeMeeting.js:45:21)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:11:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 440
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:48:34,529 ERROR 464 [-/127.0.0.1/-/6ms POST /makeMeeting] nodejs.TypeError: time.split is not a function
+    at convertTimeToKey (/root/work/yc-project/be/app/utils.js:3:20)
+    at list.forEach.item (/root/work/yc-project/be/app/controller/makeMeeting.js:92:36)
+    at Array.forEach (<anonymous>)
+    at getPartnerList (/root/work/yc-project/be/app/controller/makeMeeting.js:85:10)
+    at judgeContinue (/root/work/yc-project/be/app/controller/makeMeeting.js:71:25)
+    at judge (/root/work/yc-project/be/app/controller/makeMeeting.js:45:21)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:11:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 464
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:51:50,394 ERROR 531 nodejs.TypeError: Invalid select() argument. Must be string or object.
+    at model.Query.select (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:971:9)
+    at Function.find (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/model.js:1881:6)
+    at insertList.forEach (/root/work/yc-project/be/app/controller/makeMeeting.js:14:46)
+    at Array.forEach (<anonymous>)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:13:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 531
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:53:33,802 ERROR 547 nodejs.TypeError: Invalid select() argument. Must be string or object.
+    at model.Query.select (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:971:9)
+    at Function.find (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/model.js:1881:6)
+    at insertList.forEach (/root/work/yc-project/be/app/controller/makeMeeting.js:14:46)
+    at Array.forEach (<anonymous>)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:13:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 547
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:54:04,367 ERROR 547 nodejs.TypeError: Invalid select() argument. Must be string or object.
+    at model.Query.select (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:971:9)
+    at Function.find (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/model.js:1881:6)
+    at insertList.forEach (/root/work/yc-project/be/app/controller/makeMeeting.js:14:46)
+    at Array.forEach (<anonymous>)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:13:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 547
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:54:31,732 ERROR 559 nodejs.TypeError: Invalid select() argument. Must be string or object.
+    at model.Query.select (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:971:9)
+    at Function.find (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/model.js:1881:6)
+    at insertList.forEach (/root/work/yc-project/be/app/controller/makeMeeting.js:15:46)
+    at Array.forEach (<anonymous>)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:14:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 559
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:54:55,335 ERROR 571 nodejs.TypeError: Invalid select() argument. Must be string or object.
+    at model.Query.select (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:971:9)
+    at Function.find (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/model.js:1881:6)
+    at insertList.forEach (/root/work/yc-project/be/app/controller/makeMeeting.js:15:46)
+    at Array.forEach (<anonymous>)
+    at MakeMeetingController.index (/root/work/yc-project/be/app/controller/makeMeeting.js:14:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 571
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:55:33,433 ERROR 615 nodejs.CastError: Cast to number failed for value "9:00" at path "time" for model "Info"
+    at new CastError (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/error/cast.js:29:11)
+    at SchemaNumber.cast (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/schema/number.js:311:11)
+    at SchemaNumber.SchemaType.applySetters (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/schematype.js:892:12)
+    at SchemaNumber.SchemaType._castForQuery (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/schematype.js:1304:15)
+    at SchemaNumber.castForQuery (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/schema/number.js:363:14)
+    at SchemaNumber.SchemaType.castForQueryWrapper (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/schematype.js:1273:15)
+    at cast (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/cast.js:307:32)
+    at model.Query.Query.cast (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:4530:12)
+    at model.Query.Query._castConditions (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1762:10)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1789:8)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+    at process.nextTick (/root/work/yc-project/be/node_modules/_kareem@2.3.0@kareem/index.js:369:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+message: "Cast to number failed for value \"9:00\" at path \"time\" for model \"Info\""
+name: "CastError"
+stringValue: "\"9:00\""
+kind: "number"
+value: "9:00"
+path: "time"
+reason: undefined
+model: undefined
+pid: 615
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:56:54,749 ERROR 627 nodejs.ReferenceError: item is not defined
+    at insertList.forEach (/root/work/yc-project/be/app/controller/makeMeeting.js:15:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 627
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:57:25,526 ERROR 669 nodejs.ValidationError: Info validation failed: time: Cast to Number failed for value "9:00" at path "time"
+    at new ValidationError (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/document.js:2260:32)
+    at model.$set (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/document.js:1080:10)
+    at model._handleIndex (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/document.js:845:14)
+    at model.$set (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/document.js:790:22)
+    at model.Document (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/document.js:123:12)
+    at model.Model (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/model.js:96:12)
+    at new model (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/model.js:4580:15)
+    at toExecute.push.callback (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/model.js:2906:22)
+    at /root/work/yc-project/be/node_modules/_async@2.6.2@async/internal/parallel.js:31:39
+    at eachOfArrayLike (/root/work/yc-project/be/node_modules/_async@2.6.2@async/eachOf.js:65:9)
+    at exports.default (/root/work/yc-project/be/node_modules/_async@2.6.2@async/eachOf.js:9:5)
+    at _parallel (/root/work/yc-project/be/node_modules/_async@2.6.2@async/internal/parallel.js:30:5)
+    at parallelLimit (/root/work/yc-project/be/node_modules/_async@2.6.2@async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/model.js:2916:5)
+    at Promise (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/utils.js:270:5)
+errors: {"time":{"message":"Cast to Number failed for value \"9:00\" at path \"time\"","name":"CastError","stringValue":"\"9:00\"","kind":"Number","value":"9:00","path":"time","reason":{"message":"Cast to number failed for value \"9:00\" at path \"time\"","name":"CastError","stringValue":"\"9:00\"","kind":"number","value":"9:00","path":"time"}}}
+_message: "Info validation failed"
+message: "Info validation failed: time: Cast to Number failed for value \"9:00\" at path \"time\""
+name: "ValidationError"
+pid: 669
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:57:32,857 ERROR 681 [-/127.0.0.1/-/26ms POST /cancelMeeting] nodejs.TypeError: time.split is not a function
+    at convertTimeToKey (/root/work/yc-project/be/app/utils.js:3:20)
+    at result.forEach.item (/root/work/yc-project/be/app/controller/cancelMeeting.js:14:25)
+    at Array.forEach (<anonymous>)
+    at CancelMeetingController.index (/root/work/yc-project/be/app/controller/cancelMeeting.js:13:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 681
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 17:59:33,245 ERROR 751 [-/127.0.0.1/-/5ms POST /cancelMeeting] nodejs.TypeError: time.split is not a function
+    at convertTimeToKey (/root/work/yc-project/be/app/utils.js:3:20)
+    at result.forEach.item (/root/work/yc-project/be/app/controller/cancelMeeting.js:14:25)
+    at Array.forEach (<anonymous>)
+    at CancelMeetingController.index (/root/work/yc-project/be/app/controller/cancelMeeting.js:13:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 751
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 18:03:34,553 ERROR 826 [-/127.0.0.1/-/4ms POST /cancelMeeting] nodejs.TypeError: time.split is not a function
+    at convertTimeToKey (/root/work/yc-project/be/app/utils.js:3:20)
+    at result.forEach.item (/root/work/yc-project/be/app/controller/cancelMeeting.js:14:25)
+    at Array.forEach (<anonymous>)
+    at CancelMeetingController.index (/root/work/yc-project/be/app/controller/cancelMeeting.js:13:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 826
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 18:06:21,816 ERROR 974 [-/127.0.0.1/-/4ms POST /cancelMeeting] nodejs.TypeError: time.split is not a function
+    at convertTimeToKey (/root/work/yc-project/be/app/utils.js:3:20)
+    at result.forEach.item (/root/work/yc-project/be/app/controller/cancelMeeting.js:14:25)
+    at Array.forEach (<anonymous>)
+    at CancelMeetingController.index (/root/work/yc-project/be/app/controller/cancelMeeting.js:13:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 974
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 18:07:34,182 ERROR 998 [-/127.0.0.1/-/5ms POST /cancelMeeting] nodejs.TypeError: result.save is not a function
+    at CancelMeetingController.index (/root/work/yc-project/be/app/controller/cancelMeeting.js:18:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 998
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:11:26,649 ERROR 1851 [egg-mongoose] mongodb://localhost:27017/db disconnected
+2019-06-08 19:11:56,699 ERROR 1851 [-/127.0.0.1/-/20957ms POST /getInfoTable] nodejs.MongoNetworkError: failed to reconnect after 30 attempts with interval 1000 ms
+    at connect (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/connection/pool.js:308:13)
+    at makeConnection (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/connection/connect.js:39:11)
+    at callback (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/connection/connect.js:261:5)
+    at Socket.err (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/connection/connect.js:286:7)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+name: "MongoNetworkError"
+errorLabels: ["TransientTransactionError"]
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:11:56,702 ERROR 1851 [-/127.0.0.1/-/7917ms POST /getInfoTable] nodejs.MongoNetworkError: failed to reconnect after 30 attempts with interval 1000 ms
+    at connect (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/connection/pool.js:308:13)
+    at makeConnection (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/connection/connect.js:39:11)
+    at callback (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/connection/connect.js:261:5)
+    at Socket.err (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/connection/connect.js:286:7)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+name: "MongoNetworkError"
+errorLabels: ["TransientTransactionError"]
+status: 500
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:11:58,537 ERROR 1851 [-/127.0.0.1/-/2ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:12:06,591 ERROR 1851 [-/127.0.0.1/-/0ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:12:09,740 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:12:18,744 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:12:26,697 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:12:29,842 ERROR 1851 [-/127.0.0.1/-/0ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:12:35,424 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:12:35,747 ERROR 1851 [-/127.0.0.1/-/0ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:12:48,768 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:12:55,903 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:12:55,915 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:12:58,536 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:13:05,745 ERROR 1851 [-/127.0.0.1/-/0ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:13:18,747 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:13:23,465 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:13:33,966 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:13:33,969 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:13:35,747 ERROR 1851 [-/127.0.0.1/-/0ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:13:48,844 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:13:52,667 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:13:55,903 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:13:55,904 ERROR 1851 [-/127.0.0.1/-/0ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:14:05,750 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:14:19,153 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:14:22,542 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:14:28,095 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+
+2019-06-08 19:14:29,324 ERROR 1851 [-/127.0.0.1/-/1ms POST /getInfoTable] nodejs.MongoError: Topology was destroyed
+    at initializeCursor (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:596:25)
+    at nextFunction (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:456:12)
+    at Cursor.next (/root/work/yc-project/be/node_modules/_mongodb-core@3.2.6@mongodb-core/lib/cursor.js:766:3)
+    at Cursor._next (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:216:36)
+    at fetchDocs (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:217:12)
+    at toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/operations/cursor_ops.js:247:3)
+    at executeOperation (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:416:24)
+    at Cursor.toArray (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/cursor.js:829:10)
+    at /root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:30:14
+    at handleCallback (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:128:55)
+    at Collection.<anonymous> (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/collection.js:431:45)
+    at Collection.deprecated [as find] (/root/work/yc-project/be/node_modules/_mongodb@3.2.6@mongodb/lib/utils.js:677:15)
+    at NativeCollection.(anonymous function) [as find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/drivers/node-mongodb-native/collection.js:158:28)
+    at NodeCollection.find (/root/work/yc-project/be/node_modules/_mquery@3.2.0@mquery/lib/collection/node.js:26:19)
+    at model.Query.<anonymous> (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/query.js:1844:20)
+    at model.Query._wrappedThunk [as _find] (/root/work/yc-project/be/node_modules/_mongoose@5.5.13@mongoose/lib/helpers/query/wrapThunk.js:16:8)
+name: "MongoError"
+pid: 1851
+hostname: iZ8vbia7opzm9ljg6svl8mZ
+

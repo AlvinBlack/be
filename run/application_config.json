@@ -17,15 +17,14 @@
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
-        "enable": true,
+        "enable": false,
         "useSession": false,
         "ignoreJSON": false,
         "cookieName": "csrfToken",
         "sessionName": "csrfToken",
         "headerName": "x-csrf-token",
         "bodyName": "_csrf",
-        "queryName": "_csrf",
-        "matching": "<Function anonymous>"
+        "queryName": "_csrf"
       },
       "xframe": {
         "enable": true,
@@ -347,10 +346,9 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "middleware": [],
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": "~config~middleware",
-    "appMiddleware": "~config~middleware",
+    "appMiddlewares": [],
+    "appMiddleware": "~config~appMiddlewares",
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",
