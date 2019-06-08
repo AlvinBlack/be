@@ -1,7 +1,7 @@
 'use strict';
 const Controller = require('egg').Controller;
-const convertTimeToKey = require('../utils').convertTimeToKey
-class AddPartnerController extends Controller {
+const convertKeyToTime = require('../utils').convertKeyToTime
+class GetInfoTableController extends Controller {
   async index() {
     const partner = this.ctx.request.body.name;
     const timeArr = this.ctx.request.body.timeArr;
@@ -13,10 +13,23 @@ class AddPartnerController extends Controller {
       }
     }
     this.ctx.body = {
-      code: '200',
-      message: '添加成功'
+      columns: [
+          {
+            dataIndex: 'time',
+            title: '时间'
+          }
+      ],
+      dataSource: [
+        {
+          time: 'time',
+          "合伙人": {
+            isFree: true,
+            entrepreneur: '创业者'
+          }
+        }
+      ]
     };
   }
 }
 
-module.exports = AddPartnerController;
+module.exports = GetInfoTableController;

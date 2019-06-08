@@ -18,12 +18,7 @@ module.exports = app => {
       type: Number
     },
     time: {
-      key: {
-        type: Number
-      },
-      name: {
-        type: String
-      }
+      type: Number
     }
   });
 

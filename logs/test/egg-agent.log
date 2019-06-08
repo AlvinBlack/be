@@ -79,3 +79,13 @@
 2019-06-08 14:20:09,191 INFO 29672 [egg-watcher] Start watching: "/root/work/yc-project/be/app.js"
 2019-06-08 14:20:09,191 INFO 29672 [egg-watcher:agent] watcher start success
 2019-06-08 14:20:09,202 INFO 29672 [egg:core] dump config after ready, 4ms
+2019-06-08 14:55:20,541 INFO 29853 [egg:logger] init all loggers with options: {"dir":"/root/work/yc-project/be/logs/test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-06-08 14:55:20,550 INFO 29853 [egg:core] dump config after load, 4ms
+2019-06-08 14:55:20,578 INFO 29853 [egg-watcher] Start watching: ["/root/work/yc-project/be/app","/root/work/yc-project/be/config","/root/work/yc-project/be/mocks","/root/work/yc-project/be/mocks_proxy","/root/work/yc-project/be/app.js"]
+2019-06-08 14:55:20,578 INFO 29853 [egg-watcher] Start watching: "/root/work/yc-project/be/app"
+2019-06-08 14:55:20,579 INFO 29853 [egg-watcher] Start watching: "/root/work/yc-project/be/config"
+2019-06-08 14:55:20,579 INFO 29853 [egg-watcher] Start watching: "/root/work/yc-project/be/mocks"
+2019-06-08 14:55:20,579 INFO 29853 [egg-watcher] Start watching: "/root/work/yc-project/be/mocks_proxy"
+2019-06-08 14:55:20,579 INFO 29853 [egg-watcher] Start watching: "/root/work/yc-project/be/app.js"
+2019-06-08 14:55:20,579 INFO 29853 [egg-watcher:agent] watcher start success
+2019-06-08 14:55:20,589 INFO 29853 [egg:core] dump config after ready, 4ms
